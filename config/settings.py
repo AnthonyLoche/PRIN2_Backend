@@ -21,6 +21,8 @@ INSTALLED_APPS = [
     'core.consultas',
     'core.pedidos',
     'core.turmas',
+    'core',
+    "django_extensions",
 ]
 
 MIDDLEWARE = [

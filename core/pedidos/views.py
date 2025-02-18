@@ -7,6 +7,7 @@ from rest_framework import viewsets
 
 from .models import Pedidos, ItensPedido, Clientes
 from .serializers import PedidosListSerializer, ItensPedidoListSerializer, ClientesSerializer, PedidosCreateSerializer, ItensPedidoCreateSerializer
+from rest_framework.decorators import api_view
 
 class PedidoViewSet(viewsets.ModelViewSet):
     queryset = Pedidos.objects.all()
